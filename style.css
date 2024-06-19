@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: Arial,sens-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    width: 70%;
+    max-width: 900px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.left{
+    background: #2a3d66;
+    color: #fff;
+    padding: 40px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.left h1{
+    font-size: 24px;
+}
+.right{
+    background: #1a2942;
+    color: #fff;
+    padding: 40px;
+    flex: 2;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.header span{
+    font-size: 24px;
+    font-weight: bold;
+}
+.header.sign-In{
+    color: #a8d0e6;
+    text-decoration: none;
+}
+.header.header.sign-In:hover{
+    text-decoration: underline;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.form-group{
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-group input{
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+}
+.form-group.checkbox{
+    display: flex;
+    align-items: center;
+} 
+.form-group.checkbox input{
+    width: auto;
+    margin-right: 10px;
+}
+.form-group.checkbox label{
+    font-size: 14px;
+}
+.form-group.checkbox a{
+    color: #a8d0e6;
+    text-decoration: none;
+}
+.form-group.checkbox a:hover{
+    text-decoration: underline;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button[type="submit"]{
+    background: #a8d0e6;
+    color: #db1337;
+    margin-bottom: 15px;
+}
+button.facebook{
+    background-color: #3b5998;
+    color: #fff;
+    margin-right: 10px;
+}
+button.twitter{
+    background: #1da1f2;
+    color: #e88282;
+    margin: 10px;
+    padding: 10px;
+}
+

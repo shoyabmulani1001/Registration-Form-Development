@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Let's make It Happen Together</h1>
+        </div>
+        <div class="right">
+            <div class="header">
+                <span>Registration Form</span>
+                <a href="#" class="sign-In">Sign In Here</a>
+            </div>
+            <h2>Create An Account</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <input type="text" id="firstName" name="firstName" placeholder="firstName" required>
+                    <input type="text" id="lastName" name="lastName" placeholder="lastName" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="email" name="email" placeholder="Email" required>
+                    <input type="text" id="address" name="address" placeholder="Address" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="password" name="password" placeholder="Create Password" required>
+                    <input type="text" id="conformPassword" name="conformPassword" placeholder="Conform Password" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="date" id="dob" name="DOB" placeholder="Date Of Birth" required>
+                   <select  name="gender" id="gender" required>
+                    <option value="" disabled selected>Select Your Gender</option>
+                    <option value="male">male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                   </select>
+                </div>
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">Creating Your Account And Your Accepting  <a href="#">Terms & Condition</a>.</label>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Create Account</button>
+                </div>
+                <div class="form-group social-media">
+                    <button type="button" onclick="signupWith('Facebook')">Sign Up Using FaceBook</button>
+                    <button type="button" onclick="signupWith('Twitter')">Sign Up Using Twitter</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
